@@ -1,0 +1,165 @@
+
+body {
+
+  margin: auto;
+    padding: 1% 7%;
+}
+h1
+{
+  color: red;
+  padding: 6% 15%;
+
+}
+h2
+{
+text-align: center;
+  padding-bottom:  8rem;
+  color: #5C73F2;
+  text-decoration: underline;
+
+}
+.vertical-menu {
+  background-color: #F1F1F1;
+  padding-left: 0;
+}
+
+.vertical-ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.vertical-menu a {
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  margin: 0 auto;
+  font-size: 1.3rem;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a:active {
+  background-color: blue;
+  color: white;
+}
+
+i {
+  padding-right: 0.5rem;
+  color: #44D2CF;
+}
+.profile-pic {
+  border-radius: 100%;
+  width: 15%;
+  border-radius: 100%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  float: left;
+}
+.pg
+{
+  background-color: blue;
+  color: white;
+}
+/* dashboard styling */
+.dash-btn
+{
+  background-color: black;
+  color: white;
+
+padding: 1rem;
+  text-decoration: none;
+}
+.dash-btn:hover
+{
+  background-color: blue;
+  color:white;
+}
+.space
+{
+  margin: 5rem 0rem;
+}
+.dashrow
+{
+  padding-left: 0.5rem;
+}
+.setting-set
+{
+  text-align:center;
+}
+/* my profile page styling */
+.size
+{
+  font-size: 2rem;
+}
+b
+{
+  padding-left: 0;
+margin-right: 1rem;
+margin-bottom: 2rem;
+}
+/* my courses page styling */
+.card-margin
+{
+  margin-bottom: 2rem;
+}
+.card-body
+{
+  background-color: #E6E6FA;
+}
+/* settings page styling */
+
+
+
+/* settings-profile  */
+.profile
+{
+  background-color: pink;
+  height: 300px;
+}
+/* .profile-btn
+{
+  position: relative;
+  top: 6rem;
+  right: 8.7rem;
+
+}
+.cover-btn
+{
+  position: relative;
+  top: 15rem;
+  left: 30rem;
+} */
+.profile-icon
+{
+  padding-bottom: 0;
+}
+.profile-lastname
+{
+  padding-right: 0.1rem;
+}
+.profile-email
+{
+  padding-right: 2.3rem;
+}
+.profile-phnno
+{
+  padding-right: 0.35rem;
+}
+.profile-address
+{
+  padding-right: 1.3rem;
+}
+
+
+/* settings reset password page styling  */
+.new-password
+{
+  padding-right: 3.5rem;
+}
+.current-password
+{
+  padding-right: 2rem;
+}

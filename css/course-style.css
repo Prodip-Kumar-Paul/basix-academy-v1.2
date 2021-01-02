@@ -1,0 +1,158 @@
+
+/* Navbar Start */
+.register-btn {
+margin-right: 5px;
+margin-bottom: 5px;
+}
+
+.custom-navbar-container {
+width: 90%;
+}
+
+@media (min-width:1000px) {
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; /* remove the gap so it doesn't close */
+   }
+}
+
+/* Navbar End */
+
+
+
+ /* Full Course CSS stylesheet start */
+
+
+ /* class heading start */
+.class-heading {
+  font-size: 3.5rem;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0 auto 0 auto;
+}
+/* class heading end */
+
+ /* all custom card style start*/
+.custom-card {
+  margin: 1rem auto;
+}
+.custom-btn {
+  background: linear-gradient(to bottom left, #0066ff 0%, #cc33ff 81%);
+  color: #f5f5f5;
+}
+/* all custom card style end */
+
+
+/* Full Course CSS stylesheet end */
+
+
+
+ /* Dedicated Course CSS stylesheet start */
+
+body {
+   /* font-family: 'Open Sans', sans-serif; */
+   background-color: #fffafa;
+   background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+}
+
+ /* course heading start */
+.course-heading {
+  text-align: center;
+  color: white;
+  background-color: #4850E8;
+  padding: 1.6rem;
+}
+/* course heading end */
+
+/* course features card starts */
+.course-features-card {
+  margin: 2rem auto 2rem auto;
+  width: 90%;
+}
+/* course features card end */
+
+
+ /* Video card start */
+.video-card {
+  margin: 2rem auto 1rem auto;
+  width: 55%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+}
+
+.video {
+  width: 90%;
+  border-radius: 10px;
+  margin: 1rem auto 1rem auto;
+}
+
+.enroll-btn {
+  text-align: center;
+  margin: auto 3rem auto 3.5rem;
+}
+
+/* media breakpoint start */
+@media (max-width: 800px) {
+  .video-card {
+    width: 80%;
+  }
+}
+/* media breakpoint end */
+
+/* Video card end */
+
+ /* Dedicated Course CSS stylesheet end */
+
+
+
+
+ /* Footer starts */
+ footer {
+   background-color: #272727;
+   text-align: center;
+   margin-bottom: 0;
+   padding-bottom: 0;
+ }
+
+ footer a {
+   text-decoration: none;
+ }
+
+ .fab {
+   font-size: 2rem;
+   margin: 1rem 0.5rem;
+ }
+
+ .fa-facebook {
+   color: #1873EB;
+ }
+
+ .fa-google {
+   color: #50C45F
+ }
+
+ .fa-instagram {
+   color: #C02899;
+ }
+
+ .fa-youtube {
+   color: #F70000;
+ }
+
+ .fa-envelope {
+   color: #009DED;
+ }
+
+ .copyright {
+   color: white;
+   font-size: 1.1rem;
+ }
+
+ .developer {
+   color: white;
+   padding-bottom: 1rem;
+   margin-bottom: 0;
+ }
+
+ /* Footer End*/

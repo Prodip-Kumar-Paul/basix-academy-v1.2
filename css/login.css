@@ -1,0 +1,62 @@
+
+body{
+  background-attachment: fixed;
+  background-color: #2F8DC1;
+  background-image: linear-gradient(to right , #2F8DC1 , #AA29CB);
+}
+
+.heading{
+  text-align: center;
+  color: white;
+}
+.login-card{
+  width: 30%;
+  margin: 6% auto;
+}
+.login{
+  text-align: center;
+}
+.login-input{
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.buttn{
+  text-align: center;
+  margin: 0.5rem auto;
+}
+
+.forgot{
+  text-align: center;
+  margin:0.5rem auto;
+}
+.new{
+  text-align: center;
+  margin: 0.2rem;
+}
+
+.new a {
+  color: green;
+}
+
+@media (max-width:1100px) {
+  .login-card{
+    width:45%
+  }
+}
+@media (max-width:725px) {
+  .login-card{
+    width: 50%;
+  }
+
+}
+@media (max-width:530px) {
+  .login-card{
+    width:70%;
+  }
+}
+
+@media (max-width:365px) {
+  .login-card{
+    width:80%;
+  }
+}

@@ -1,0 +1,50 @@
+body{
+  background-attachment: fixed;
+  background-color: #2F8DC1;
+  background-image: linear-gradient(to right , #2F8DC1 , #AA29CB);
+}
+.page-heading {
+  text-align: center;
+  color: white;
+}
+
+.signup-card {
+  width: 35%;
+  margin: 3% auto;
+  margin-bottom: 1%;
+}
+
+.heading {
+  text-align: center;
+}
+
+.signup-input {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.signup-btn {
+  text-align: center;
+  margin: 0.5rem auto;
+  margin-bottom: 1rem;
+}
+
+.already-logged-in {
+  text-align: center;
+}
+
+.already-logged-in a:visited {
+  color: green;
+}
+
+@media only screen and (max-width: 1200px) {
+  .signup-card {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .signup-card {
+    width: 85%;
+  }
+}

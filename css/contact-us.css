@@ -1,0 +1,109 @@
+/* Navbar Start */
+.register-btn {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.custom-navbar-container {
+  width: 90%;
+}
+
+@media (min-width:1000px) {
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; /* remove the gap so it doesn't close */
+   }
+}
+
+/* Navbar End */
+
+/* contact us start  */
+
+.contact {
+  margin: auto 10%;
+}
+
+.contact-img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.address {
+  padding: 1rem 1rem;
+  text-align: left;
+}
+.map {
+  /* width: 30%; */
+  padding: 1rem 1rem;
+  border-radius: 10%;
+}
+.email {
+  padding:  1rem 1rem 0;
+}
+.email p {
+  font-size: 1.5rem;
+}
+
+.phone {
+  padding: 1rem 1rem;
+}
+.phone p {
+  font-size: 1.5rem;
+}
+@media (max-width: 800px) {
+  .contact {
+    margin: auto 5%;
+    text-align: center;
+  }
+}
+/* contact us end */
+
+/* Footer starts */
+footer {
+  background-color: #272727;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.fab {
+  font-size: 2rem;
+  margin: 1rem 0.5rem;
+}
+
+.fa-facebook {
+  color: #1873EB;
+}
+
+.fa-google {
+  color: #50C45F
+}
+
+.fa-instagram {
+  color: #C02899;
+}
+
+.fa-youtube {
+  color: #F70000;
+}
+
+.fa-envelope {
+  color: #009DED;
+}
+
+.copyright {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.developer {
+  color: white;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+/* Footer End*/

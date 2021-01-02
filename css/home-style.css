@@ -1,0 +1,172 @@
+/* Navbar Start */
+.register-btn {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.custom-navbar-container {
+  width: 90%;
+}
+
+@media (min-width:1000px) {
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; /* remove the gap so it doesn't close */
+   }
+}
+
+/* Navbar End */
+
+
+
+/* Landing Page Start */
+.landing-page {
+  background-color: #D8CFBE;
+  margin-bottom: 0;
+}
+
+.home-text {
+  padding: 10%;
+  padding-left: 7%;
+  padding-top: 5%;
+}
+
+.heading {
+  font-size: 3.5rem;
+  padding: 2rem;
+  padding-left: 0;
+}
+
+.heading-info {
+  font-size: 1.2rem;
+  padding-bottom: 6%;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+/* Landing Page End */
+
+/* Home Courses Start */
+.sub-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.custom-card-body {
+  text-align: center;
+}
+
+.custom-card {
+  margin: 1rem auto;
+}
+
+.home-courses {
+  background-color: #EEEEFF;
+  margin-top: 0;
+}
+/* Home Courses Ends */
+
+
+/* Reviews and ratings start*/
+.home-reviews {
+  background-color: #ecf3f9;
+}
+
+.custom-review-carousel {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  padding: 5%;
+  background-color: #9AAFF6;
+}
+
+.carousel-button {
+  background-color: #000087;
+  height: 4rem;
+}
+
+.review-img {
+  border-radius: 100%;
+  width: 6rem;
+  height: 6rem;
+  margin: 2rem auto;
+}
+
+.reviewer-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.review-content {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+/* Reviews and Ratings End  */
+
+
+/* Faculties start */
+.home-faculties {
+  background-color: #f5f5f5;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.faculties-row {
+  width: 90%;
+  margin: auto;
+}
+/* Faculties Ends */
+
+/* Footer starts */
+footer {
+  background-color: #272727;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.fab {
+  font-size: 2rem;
+  margin: 1rem 0.5rem;
+}
+
+.fa-facebook {
+  color: #1873EB;
+}
+
+.fa-google {
+  color: #50C45F
+}
+
+.fa-instagram {
+  color: #C02899;
+}
+
+.fa-youtube {
+  color: #F70000;
+}
+
+.fa-envelope {
+  color: #009DED;
+}
+
+.copyright {
+  color: white;
+  font-size: 1.1rem;
+}
+
+.developer {
+  color: white;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+/* Footer End*/
