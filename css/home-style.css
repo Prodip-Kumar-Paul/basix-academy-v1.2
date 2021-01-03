@@ -9,12 +9,12 @@ html,body
 
 /* Navbar Start */
 .register-btn {
-  margin-right: 5px;
-  margin-bottom: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
 }
 
 .custom-navbar-container {
-  width: 90%;
+width: 90%;
 }
 
 @media (min-width:1000px) {
@@ -23,16 +23,6 @@ html,body
       margin-top: 0; /* remove the gap so it doesn't close */
    }
 }
-
-
-/* ============ desktop view ============ */
-/* @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ color: #fff;  }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-} */
-/* ============ desktop view .end// ============ */
 
 /* Navbar End */
 
@@ -368,7 +358,7 @@ footer a {
   color: #1873EB;
 }
 
-.fa-whatsapp-square {
+.fa-google {
   color: #50C45F
 }
 
@@ -380,7 +370,7 @@ footer a {
   color: #F70000;
 }
 
-.fa-twitter {
+.fa-envelope {
   color: #009DED;
 }
 
