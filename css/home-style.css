@@ -1,11 +1,20 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 /* Navbar Start */
 .register-btn {
-  margin-right: 5px;
-  margin-bottom: 5px;
+margin-right: 5px;
+margin-bottom: 5px;
 }
 
 .custom-navbar-container {
-  width: 90%;
+width: 90%;
 }
 
 @media (min-width:1000px) {
@@ -17,18 +26,71 @@
 
 /* Navbar End */
 
+body {
+  background-color: #96E6F7;
+}
+
+.custom-orange-button {
+  background-image: linear-gradient(to right , #E9862F, #FF7162);
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.custom-orange-button:hover {
+  background-image: linear-gradient(to right , #FF7162 , #E9862F);
+  color: white;
+}
+
+.custom-violate-button {
+  background-image: linear-gradient(to right ,#5D72FF , #8A42FF);
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.custom-violate-button:hover {
+  background-image: linear-gradient(to right , #8A42FF , #5D72FF);
+  color: white;
+}
 
 
 /* Landing Page Start */
 .landing-page {
-  background-color: #D8CFBE;
+  background-color: #96E6F7;
+}
+
+.landing-button {
   margin-bottom: 0;
 }
 
+.s {
+  background-color: #EEEEFF;
+  margin-top: 0;
+}
+
+.landing-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.landing-image-wrapper {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.landing-image {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+span {
+  display: block;
+}
+
 .home-text {
-  padding: 10%;
-  padding-left: 7%;
-  padding-top: 5%;
+  margin-bottom: 0;
 }
 
 .heading {
@@ -61,6 +123,10 @@
 
 .custom-card {
   margin: 1rem auto;
+  /* border: 5px solid red; */
+  border-radius: 7%;
+  background-image: linear-gradient( #FFD3C9 , #FFE9DA);
+  color: black;
 }
 
 .home-courses {
@@ -69,57 +135,207 @@
 }
 /* Home Courses Ends */
 
+/* Slides start */
 
-/* Reviews and ratings start*/
-.home-reviews {
-  background-color: #ecf3f9;
-}
-
-.custom-review-carousel {
+.slide {
   width: 90%;
-  text-align: center;
   margin: auto;
-  padding: 5%;
-  background-color: #9AAFF6;
 }
 
-.carousel-button {
-  background-color: #000087;
-  height: 4rem;
+.slide-heading  {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 2.5rem;
 }
 
-.review-img {
+.slide-points {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+
+/* slide1 start*/
+.slide-img1 {
+  max-width: 80%;
+  margin: auto;
+  height: auto;
+}
+/* Slide1 end */
+
+/* Slide2 start */
+.slide-img2 {
+  max-width: 100%;
+  padding-top: 2rem;
+  margin: auto;
+  height: auto;
+}
+
+.slide2-wrapper {
+  background-color: #F6F1F4;
+}
+
+.slide2 {
+  width: 90%;
+  margin: auto;
+}
+/* Slide2 end */
+
+/*Slide3 start */
+.slide3-wrapper {
+  background-color:#EAE9E0;
+}
+
+.slide3 {
+  width: 90%;
+  margin: auto;
+}
+
+.slide-img3 {
+  max-width: 100%;
+}
+
+/*Slide3 end */
+/* Slides end */
+
+/* Review start */
+
+.review {
+  background-color: #F6F1F4;
+}
+
+.custom-owl {
+  margin: auto;
+}
+
+.custom-content {
+  padding-top: 4rem;
+}
+
+.custom-card-text {
+  background-color: white;
+  padding: 0 1rem;
+  height: 21rem;
+  margin-top: -4rem;
+  border-radius: 5%;
+}
+
+.custom-review-card {
+  text-align: center;
+  margin: 1rem auto;
+  width: 19rem;
+}
+
+.review-image {
+  max-width: 35%;
+  height: auto;
+  margin: 1rem auto;
   border-radius: 100%;
-  width: 6rem;
-  height: 6rem;
-  margin: 2rem auto;
+}
+/* Review end */
+
+/* Results start */
+
+.results {
+  background-color: #F1F9EC;
 }
 
-.reviewer-name {
-  font-size: 1.5rem;
-  font-weight: bold;
+.custom-result-card {
+  text-align: center;
+  margin: 1rem auto;
+  width: 17rem;
+  background-color: #fff;
+  border-radius: 5%;
+  padding-top: 0.5rem;
 }
 
-.review-content {
-  font-size: 3rem;
-  font-weight: bolder;
+.result-image {
+  max-width: 6rem;
+  height: 7rem;
+  border-radius: 100%;
+  margin: auto;
 }
-/* Reviews and Ratings End  */
+
+.custom-result-text {
+  padding: 1rem 0;
+}
+
+/* Results end */
+
 
 
 /* Faculties start */
-.home-faculties {
-  background-color: #f5f5f5;
-  margin: 0;
-  text-align: center;
-  padding-bottom: 3rem;
-}
 
-.faculties-row {
-  width: 90%;
-  margin: auto;
-}
+  .faculty {
+    background-color: #F7FCFE;
+    padding-bottom: 2rem;
+  }
+
+  .custom-carousel {
+    width: 70%;
+    padding: 2rem;
+    background-color: #F6F1F4;
+    border-radius: 5%;
+    margin: auto;
+  }
+
+  .faculty-slide {
+    text-align: center;
+  }
+
+  .faculty-image {
+    max-width: 30%;
+    margin: 1rem auto;
+    border-radius: 5%;
+  }
+
+  .faculty-name {
+    font-size: 2rem;
+  }
+
+  .faculty-info {
+    font-size: 1.5rem;
+  }
+
+  .carousel-btn {
+    height: 3.5rem;
+    background-color: #FFDEAD;
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .faculty-image {
+      max-width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .faculty-image {
+      max-width: 70%;
+    }
+    .faculty-name {
+      font-size: 1.5rem;
+    }
+    .faculty-info {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .custom-carousel {
+      width: 90%;
+    }
+    .faculty-image {
+      max-width: 70%;
+    }
+    .faculty-name {
+      font-size: 1.5rem;
+    }
+    .faculty-info {
+      font-size: 1rem;
+    }
+  }
+
 /* Faculties Ends */
+
 
 /* Footer starts */
 footer {
