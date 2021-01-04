@@ -123,7 +123,6 @@ span {
 
 .custom-card {
   margin: 1rem auto;
-  /* border: 5px solid red; */
   border-radius: 7%;
   background-image: linear-gradient( #FFD3C9 , #FFE9DA);
   color: black;

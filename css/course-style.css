@@ -35,11 +35,14 @@ width: 90%;
  /* all custom card style start*/
 .custom-card {
   margin: 1rem auto;
+  text-align: center;
 }
+
 .custom-btn {
   background: linear-gradient(to bottom left, #0066ff 0%, #cc33ff 81%);
   color: #f5f5f5;
 }
+
 /* all custom card style end */
 
 
