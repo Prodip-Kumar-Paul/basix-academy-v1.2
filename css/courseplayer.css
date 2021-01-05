@@ -46,6 +46,11 @@ margin-bottom: 0;
   padding-top: 3rem;
 }
 
+
+.pdf {
+  text-decoration: none;
+}
+
 .right-container{
   border-left: 3px solid #bfb9b9 ;
 }

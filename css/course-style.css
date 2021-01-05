@@ -1,38 +1,38 @@
-
 /* Navbar Start */
 .register-btn {
-margin-right: 5px;
-margin-bottom: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .custom-navbar-container {
-width: 90%;
+  width: 90%;
 }
 
 @media (min-width:1000px) {
   .dropdown:hover .dropdown-menu {
-      display: block;
-      margin-top: 0; /* remove the gap so it doesn't close */
-   }
+    display: block;
+    margin-top: 0;
+    /* remove the gap so it doesn't close */
+  }
 }
 
 /* Navbar End */
 
+/* Full Course CSS stylesheet start */
 
 
- /* Full Course CSS stylesheet start */
-
-
- /* class heading start */
+/* class heading start */
 .class-heading {
   font-size: 3.5rem;
   text-align: center;
   padding: 1.5rem;
   margin: 0 auto 0 auto;
 }
+
 /* class heading end */
 
- /* all custom card style start*/
+/* all custom card style start*/
+
 .custom-card {
   margin: 1rem auto;
   text-align: center;
@@ -45,26 +45,24 @@ width: 90%;
 
 /* all custom card style end */
 
-
 /* Full Course CSS stylesheet end */
 
-
-
- /* Dedicated Course CSS stylesheet start */
+/* Dedicated Course CSS stylesheet start */
 
 body {
-   /* font-family: 'Open Sans', sans-serif; */
-   background-color: #fffafa;
-   background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
+  /* font-family: 'Open Sans', sans-serif; */
+  background-color: #fffafa;
+  background-image: url(http://www.transparenttextures.com/patterns/cubes.png);
 }
 
- /* course heading start */
+/* course heading start */
 .course-heading {
   text-align: center;
   color: white;
   background-color: #4850E8;
   padding: 1.6rem;
 }
+
 /* course heading end */
 
 /* course features card starts */
@@ -72,10 +70,10 @@ body {
   margin: 2rem auto 2rem auto;
   width: 90%;
 }
+
 /* course features card end */
 
-
- /* Video card start */
+/* Video card start */
 .video-card {
   margin: 2rem auto 1rem auto;
   width: 55%;
@@ -100,62 +98,96 @@ body {
   .video-card {
     width: 80%;
   }
+
 }
+
+/* back-to-top button start  */
+  a.back-to-top {
+    display: none;
+  }
+
+  @media (max-width: 800px) {
+
+   a.back-to-top {
+     width: 4rem;
+     height: 4rem;
+     background-color: lightblue;
+     display: inline-block;
+     position: fixed;
+     z-index: 999;
+     right: 2rem;
+     bottom: 1rem;
+     color: #fffff0;
+     text-align: center;
+     text-decoration: none;
+     opacity: 0.5;
+     border-radius: 3rem;
+   }
+   a:hover.back-to-top {
+     background-color: #000;
+   }
+   .back-to-top-icon {
+     font-size: 3rem;
+     margin-top: 0.5rem;
+   }
+
+  }
+
+/* back-to-top button end */
+
 /* media breakpoint end */
 
 /* Video card end */
 
- /* Dedicated Course CSS stylesheet end */
+/* Dedicated Course CSS stylesheet end */
 
 
+/* Footer starts */
+footer {
+  background-color: #272727;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
 
+footer a {
+  text-decoration: none;
+}
 
- /* Footer starts */
- footer {
-   background-color: #272727;
-   text-align: center;
-   margin-bottom: 0;
-   padding-bottom: 0;
- }
+.fab {
+  font-size: 2rem;
+  margin: 1rem 0.5rem;
+}
 
- footer a {
-   text-decoration: none;
- }
+.fa-facebook {
+  color: #1873EB;
+}
 
- .fab {
-   font-size: 2rem;
-   margin: 1rem 0.5rem;
- }
+.fa-google {
+  color: #50C45F
+}
 
- .fa-facebook {
-   color: #1873EB;
- }
+.fa-instagram {
+  color: #C02899;
+}
 
- .fa-google {
-   color: #50C45F
- }
+.fa-youtube {
+  color: #F70000;
+}
 
- .fa-instagram {
-   color: #C02899;
- }
+.fa-envelope {
+  color: #009DED;
+}
 
- .fa-youtube {
-   color: #F70000;
- }
+.copyright {
+  color: white;
+  font-size: 1.1rem;
+}
 
- .fa-envelope {
-   color: #009DED;
- }
+.developer {
+  color: white;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
 
- .copyright {
-   color: white;
-   font-size: 1.1rem;
- }
-
- .developer {
-   color: white;
-   padding-bottom: 1rem;
-   margin-bottom: 0;
- }
-
- /* Footer End*/
+/* Footer End*/

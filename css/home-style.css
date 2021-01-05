@@ -333,7 +333,45 @@ span {
     }
   }
 
-/* Faculties Ends */
+  /* Faculties Ends */
+
+
+/* back-to-top button start  */
+  a.back-to-top {
+    display: none;
+  }
+
+  @media (max-width: 800px) {
+
+   a.back-to-top {
+     width: 4rem;
+     height: 4rem;
+     background-color: lightblue;
+     display: inline-block;
+     position: fixed;
+     z-index: 999;
+     right: 2rem;
+     bottom: 1rem;
+     color: #fffff0;
+     text-align: center;
+     text-decoration: none;
+     opacity: 0.5;
+     border-radius: 3rem;
+   }
+   a:hover.back-to-top {
+     background-color: #000;
+   }
+   .back-to-top-icon {
+     font-size: 3rem;
+     margin-top: 0.5rem;
+   }
+
+  }
+
+/* back-to-top button end */
+
+
+
 
 
 /* Footer starts */
