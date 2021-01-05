@@ -1,4 +1,4 @@
-//alert("owl");
+// alert("back-to-top");
 
 $(document).ready(function(){
 $(".owl-carousel").owlCarousel();
@@ -26,4 +26,23 @@ $('.owl-carousel').owlCarousel({
             autoplayHoverPause:true
         }
     }
+});
+
+// create the back to top button
+
+var amountScrolled = 700;
+
+$(window).scroll(function() {
+	if ( $(window).scrollTop() > amountScrolled ) {
+		$('a.back-to-top').fadeIn('slow');
+	} else {
+		$('a.back-to-top').fadeOut('slow');
+	}
+});
+
+$('a.back-to-top, a.simple-back-to-top').click(function() {
+	$('html, body').animate({
+		scrollTop: 0
+	}, 500);
+	return false;
 });
